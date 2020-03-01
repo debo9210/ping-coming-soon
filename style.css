@@ -1,0 +1,174 @@
+body {
+    font-family: 'Libre Franklin';
+}
+
+h1 {
+    color: hsl(0, 0%, 59%);
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-left: 425px;
+}
+
+span {
+    color: black;
+    font-weight: 700;
+}
+
+.sub {
+    margin-left: 520px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.logo {
+    margin: 20px 0 10px 600px;
+}
+
+.illustrate {
+    width: 40%;
+    margin-top: 70px;
+    margin-left: 373px;
+}
+
+
+.call-to-action {
+    margin-left: 380px;
+}
+
+input[type="email"] {
+    height: 38px;
+    width: 350px;
+    margin-right: 8px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 59%);
+}
+
+button {
+    height: 41px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    box-shadow: 2px 5px 5px 2px hsl(225, 93%, 94%);
+    color: #fff;
+    background-color: hsl(223, 87%, 63%);
+    /* display: inline; */
+}
+
+input::placeholder {
+    padding-left: 20px;
+    color: hsl(0, 0%, 59%);
+    font-size: 11px;
+    word-spacing: 1px;
+}
+
+.socials {
+    margin-left: 600px;
+    margin-top: 70px;
+    color: hsl(223, 87%, 63%);
+}
+
+.fa-facebook-f {
+    margin-right: 8px;
+    border: 1px solid hsl(225, 93%, 94%);
+    border-radius: 50%;
+    padding: 6px 9px 6px 8px;
+}
+
+.fa-facebook-f:hover {
+    color: #fff;
+    background-color: hsl(223, 87%, 63%);
+}
+
+.fa-twitter {
+    margin-right: 8px;
+    border: 1px solid hsl(225, 93%, 94%);
+    border-radius: 50%;
+    padding: 6px 6px 6px 6px;
+}
+
+.fa-twitter:hover {
+    color: #fff;
+    background-color: hsl(223, 87%, 63%);
+}
+
+.fa-instagram {
+    border: 1px solid hsl(225, 93%, 94%);
+    border-radius: 50%;
+    padding: 6px 6px 6px 6px;
+}
+
+.fa-instagram:hover {
+    color: #fff;
+    background-color: hsl(223, 87%, 63%);
+}
+
+.copy {
+    margin-top: 20px;
+    margin-left: 550px;
+    font-size: 11px;
+}
+
+.error {
+    font-style: italic;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+@media (max-width: 500px) {
+    .logo {
+        margin: 80px 0 30px 200px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 300;
+        margin-left: 60px;
+    }
+
+    .sub {
+        margin-left: 124px;
+        margin-top: 18px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .call-to-action {
+        margin-left: 20px;
+    }
+
+    input[type="email"] {
+        width: 400px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    button {
+        height: 41px;
+        width: 400px;
+    }
+
+    input::placeholder {
+        padding-left: 30px;
+    }
+
+    .illustrate {
+        width: 90%;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+    .socials {
+        margin-left: 150px;
+        margin-top: 150px;
+
+    }
+
+    .copy {
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+
+}
